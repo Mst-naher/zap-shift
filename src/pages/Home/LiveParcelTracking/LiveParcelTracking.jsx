@@ -8,9 +8,8 @@ const LiveParcelTracking = () => {
   return (
     <Marquee>
       <div className="flex gap-20 lg:gap-60 m-20">
-       
-        <div className="flex justify-center items-center gap-5 bg-blue-300 p-3 rounded-2xl text-blue-900">
-          <img className="w-35" src={img1} alt="" />
+        <div className="flex justify-center items-center gap-5 bg-primary p-3 rounded-2xl text-blue-900">
+          <img className="w-35 hover:animate-ping" src={img1} alt="" />
           <div>
             <h1>
               <PiDotsThreeOutlineVerticalLight />
@@ -18,8 +17,8 @@ const LiveParcelTracking = () => {
           </div>
           <h2 className="lg:text-2xl font-bold">Parcel Live Tracking</h2>
         </div>
-        <div className="flex justify-center items-center gap-5 bg-blue-300 p-3 rounded-2xl text-blue-900">
-          <img className="w-30" src={img2} alt="" />
+        <div className="flex justify-center items-center gap-5 bg-primary p-3 rounded-2xl text-blue-900">
+          <img className="w-30 hover:animate-ping" src={img2} alt="" />
           <div>
             <h1>
               <PiDotsThreeOutlineVerticalLight />

@@ -29,19 +29,19 @@ const Brands = () => {
         </h1>
       </div>
       <Swiper
-        loop={true}
+        // loop={true}
         slidesPerView={4}
         centeredSlides={true}
         spaceBetween={30}
         grabCursor={true}
-        modules={[Autoplay, Pagination]}
-        autoplay={{
-          delay: 1500,
-          disableOnInteraction: false,
-        }}
-        pagination={{
-          clickable: true,
-        }}
+        // modules={[Autoplay, Pagination]}
+        // autoplay={{
+        //   delay: 1500,
+        //   disableOnInteraction: false,
+        // }}
+        // pagination={{
+        //   clickable: true,
+        // }}
         className="mySwiper"
       >
         {brandLogos.map((logo, index) => (

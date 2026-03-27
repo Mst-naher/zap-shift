@@ -17,7 +17,7 @@ const Reviews = ({ reviewsPromise }) => {
       </div>
 
       <Swiper
-        loop={true}
+        // loop={true}
         effect={"coverflow"}
         spaceBetween={30}
         grabCursor={true}
@@ -31,12 +31,12 @@ const Reviews = ({ reviewsPromise }) => {
           scale: 0.75,
           slideShadows: true,
         }}
-        modules={[Autoplay, EffectCoverflow, Pagination]}
-        autoplay={{
-          delay: 1000,
-          disableOnInteraction: false,
-        }}
-        pagination={true}
+        // modules={[Autoplay, EffectCoverflow, Pagination]}
+        // autoplay={{
+        //   delay: 1000,
+        //   disableOnInteraction: false,
+        // }}
+        // pagination={true}
        
         className="mySwiper"
       >
